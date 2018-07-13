@@ -1,0 +1,95 @@
+  
+#container{
+    width: 75%;
+    height: auto;
+    background-color: white;
+}
+header{
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: white;
+    flex-direction: column;
+   font-family: 'Knewave', cursive;
+
+}
+#contenu{
+    display: flex;
+    flex-direction: column;
+
+  font-family: 'Knewave', cursive;
+}
+body{
+    display: flex;
+    width: 97vw;
+    height: 100vh;
+    justify-content: center;
+    padding: 14px;
+    align-items: center;
+    background-color: #f3f3f3;
+
+
+}
+footer{
+    background-color: #5e55b4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height:10% ;
+    align-items: center;
+font-family: 'Knewave', cursive;
+
+}
+nav{
+
+  font-family: 'Knewave', cursive;
+}
+footer h6{
+    margin-left: 335px;
+}
+
+nav ol li a:hover{
+    font-size: 15px;   
+    text-decoration: none;
+}
+nav ol li a{
+    text-decoration: none;
+}
+.image { 
+    position: relative; 
+    width: 120%; 
+}
+
+h2 { 
+    position: absolute; 
+    top: 150px;
+    left: 18px;
+    width: 100%; 
+   transition: transform 2s linear 1s;
+  
+
+}
+.flags{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flags a{
+    margin-right: 10px;
+}
+header div h2:hover{
+    
+   transform: translateX(100px);
+
+}
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+
